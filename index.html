@@ -157,6 +157,7 @@
             color: #f3e5f5;
             margin: 15px 0;
             text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            white-space: pre-wrap; /* লাইন ব্রেকগুলো ধরে রাখার জন্য */
         }
 
         /* Photo Frame */
@@ -257,8 +258,8 @@
             balloonContainer.appendChild(balloon);
         }
 
-        // Typewriter Message
-        const messageText = "Happy birthday beddop partner 😒...Tomar partner tomake onek onek miss kore! Tomar partner protidin niyom kore tomake mone rakhbe ! Tomar partner Kokonoi tomake aibhabe bidai dite chai nai... Hoito amader bhul time e deka hoise tobuo tomake bidai jananor kotha ami vabtei parina..karon amr bissas chilo amader bonding ta sudu memories bagh kore newa duita oporichito manusher somporker ceyeo onek gobir kichu howar kotha chilo!!!..Shobshomoy hashi-khushi thakba!! R mone rakba tomar partner sobsomoy tomar pashe ache!...Duwa kori onek onek khusi thako!!!!.....Happy Birthday, Beddop! ❤️";
+        // Typewriter Message (Backtick ` ব্যবহার করা হয়েছে)
+        const messageText = `Happy Birthday Partner!...আমাদের আর কথা হবে না তাতে কি হয়েছে ,আমার কাছে তো তোমার স্মৃতি রয়ে গেছে।তোমার সঙ্গে কাটানো প্রতিটি মুহূর্ত, তোমার বলা প্রতিটি কথা,তোমার হাসি, তোমার অভিমান,তোমার যত্ন, এমনকি তোমার সঙ্গে করা ছোট ছোট ঝগড়াগুলোও আমার হৃদয়ের কোথাও খুব যত্ন করে জমা হয়ে আছে। হয়তো তুমি আমার জীবনে আর থাকবে না, কিন্তু তোমার স্মৃতিগুলো থেকে যাবে আজীবন। তোমাকে হারানোর কষ্টটা হয়তো কোনোদিন পুরোপুরি কমবে না কিন্তু হৃদয়ের এক কোণে তোমার জন্য যে জায়গাটা তৈরি হয়েছিল, সেটা হয়তো কোনোদিনই অন্য কারও জন্য খালি হবে না। কারণ কিছু মানুষ জীবনে আসে থাকার জন্য নয়,বরং সারাজীবন মনে থেকে যাওয়ার জন্য। কখনো যদি পুরোনো দিনগুলোর কথা মনে পড়ে, তখন ফিরে আসার প্রয়োজন নেই। শুধু একটু থেমে মনে করো কোনো একসময় আমি তোমার পার্টনার ছিলাম! .Duwa kori onek onek khusi thako!!!!..Happy Birthday, Beddop! ❤️`;
         let index = 0;
 
         function typeWriter() {
